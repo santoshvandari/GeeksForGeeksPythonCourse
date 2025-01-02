@@ -1,4 +1,4 @@
-><div><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">You are given two numbers A&nbsp;and B. When A&nbsp;is raised to some power P, we get a number X. Now, you need to find what is the value of X&nbsp;that is closest to B.</span></p>
+<div><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">You are given two numbers A&nbsp;and B. When A&nbsp;is raised to some power P, we get a number X. Now, you need to find what is the value of X&nbsp;that is closest to B.</span></p>
 <p><strong><span style="font-size: 18px;">Example:</span></strong></p>
 <pre><strong><span style="font-size: 18px;">Input 1:</span></strong>
 <span style="font-size: 18px;">A = 2</span>
