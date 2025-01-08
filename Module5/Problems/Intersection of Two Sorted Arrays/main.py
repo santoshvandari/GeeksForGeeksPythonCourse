@@ -1,10 +1,29 @@
 #User function Template for python3
 
+# Done With the help of ChatGpt
+
 
 class Solution:
     #Function to return a list containing the intersection of two arrays.
     def intersection(self, arr1, arr2):
-        return ([x for x in arr1 if x in arr2])
+        i,j=0,0
+        n,m=len(arr1),len(arr2)
+        result=[]
+        
+        while i<n and j<m:
+            if i>0 and arr1[i]==arr1[i-1]:
+                i+=1
+                continue
+            
+            if arr1[i]==arr2[j]:
+                result.append(arr1[i])
+                i+=1
+                j+=1
+            elif arr1[i] < arr2[j]:
+                i+=1
+            else:
+                j+=1
+        return result
     
 
 
