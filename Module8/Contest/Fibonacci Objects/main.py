@@ -33,9 +33,9 @@ def nthFibO(n, obj1, obj2):
         return obj2
     
     for i in range(3,n+1):
-        temp = obj1.fiboSum(obj2)
-        obj1=obj2
-        obj2=obj2.deepCopy(temp)
+        temp= FibO(obj1.x+obj2.x,obj1.y+obj2.y,obj1.z+obj2.z)
+        obj1.deepCopy(obj2)
+        obj2.deepCopy(temp)
     return obj2
     
     
